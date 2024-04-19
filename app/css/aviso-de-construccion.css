@@ -1,0 +1,23 @@
+.aviso-banner {
+  width: auto;
+  display: grid;
+  place-items: center; /* Añadido para que los "row" estén uno debajo del otro */
+  margin: 10px 0;
+  background: linear-gradient(
+    to right,
+    #d1e3f5,
+    #e5ecf3
+  ); /* Fondo con gradiente */
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.mensaje{
+    font-family: 'Work Sans';
+    font-size: 30px;
+}
+
+.aviso-banner img {
+  margin-top: 10px;
+}

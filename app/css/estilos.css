@@ -1,0 +1,621 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap");
+body {
+  margin-top: 0;
+  font-family: "Work Sans";
+  /*background-color: #f8f8f8;*/
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+:root {
+  --deep-pink: deeppink;
+}
+
+/*inicio de la barra de navegacio*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Righteous";
+  color: cornflowerblue;
+}
+p,
+span {
+  font-family: "Work Sans";
+}
+
+/*
+.header {
+  background: linear-gradient(
+    to right,
+    #da7070,
+    #2c3e50,
+    #0000ff
+  ); /* Cambiar estos colores según tus preferencias */
+/*background-color: #1f1d1d;*/
+/*padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  border-radius: 15px;
+}
+
+.header a:hover {
+  background-color: #555;
+  border-radius: 15px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.icon {
+  text-align: center;
+  color: white;
+  margin-right: 5px;
+}
+*/
+/*fin de la barra de navegacion*/
+
+/*inicio del cuerpo*/
+
+.content {
+  background-color: #f8f8f8;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2); /* Sombra en los cuatro lados del cuerpo */
+  border-radius: 15px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0;
+  background: linear-gradient(
+    to right,
+    #d1e3f5,
+    #e5ecf3
+  ); /* Fondo con gradiente */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.row-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.column-content {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.texto {
+  width: 40%;
+  width: 60%;
+  padding: 20px;
+  color: cornflowerblue;
+  font-size: 24px; /* Tamaño de texto más grande */
+  line-height: 0.00001;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.texto h1 {
+  font-family: "Righteous";
+  color: cornflowerblue;
+  font-size: 150px; /* Tamaño de texto más grande */
+}
+
+.left-content {
+  width: 60%;
+  color: white;
+  font-size: 24px;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imagen {
+  width: 55%;
+}
+
+/* fin del cuerpo */
+
+/* inicio del aside */
+
+.aside {
+  height: auto;
+  background: linear-gradient(
+    to right,
+    #d1e3f5,
+    #e5ecf3
+  ); /* Fondo con gradiente */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.aside h2 {
+  color: #333;
+}
+
+.redes-sociales p {
+  font-weight: bold;
+}
+
+.redes-sociales a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.formulario-suscripcion h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.formulario-suscripcion label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formulario-suscripcion input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.formulario-suscripcion button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+/* fin del aside */
+
+/* inicio del pie de pagina */
+footer {
+  background: #2c3e50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column; /* Añadido para que los "row" estén uno debajo del otro */
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.social-row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 5px;
+  gap: 10px;
+}
+
+.column .titulo2 {
+  font-size: 50px;
+}
+
+.social-icons {
+  color: white;
+  font-size: 30px;
+}
+
+.social-icons:hover {
+  transform: scale(1.2);
+}
+/* fin del pie de pagina*/
+
+/* inicio quienes-somos */
+.justificado {
+  font-size: 23px;
+  color: #654e64;
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px;
+  border: solid 2px #b4cbfd;
+  border-radius: 20px;
+}
+
+.svg-quienes-somos{
+  height: 450px;
+  width: 450px;
+}
+/* fin de quienes-somos */
+
+/* inicio inicio-sesion */
+.formulario-login{
+  border: solid 2px #b4cbfd;
+  border-radius: 15px;
+  padding-top: 25px;
+  box-shadow: 0px 5px 5px -5px rgb(0, 0, 0);;
+}
+
+.svg-login{
+  margin-top: -100px;
+}
+
+/* fin de inicio-sesion */
+
+/* Contactanos */
+
+.parrafo {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #666;
+}
+
+/* Estilos del formulario */
+
+.formulario {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+.cabecera {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cabecera h1 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.cabecera p {
+  font-size: 18px;
+  color: #999;
+}
+
+.formulario .campos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.formulario .campo {
+  width: 80%;
+  height: 80px;
+  margin: 5px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.formulario input,
+.formulario textarea {
+  background-color: #8ac5c793;
+  font-family: "Work Sans";
+  color: #333;
+  font-size: 16px;
+  /*border: 1px solid #ccc;*/
+  border: none;
+  padding: 5px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+.formulario textarea {
+  text-indent: 15px;
+  border-radius: 5px;
+  height: 100px;
+}
+
+.formulario .telefono {
+  width: 40%;
+}
+
+.formulario input {
+  text-indent: 20px; /* Cantidad de tabulación */
+}
+
+/* Estilo al hacer focus */
+input:focus,
+textarea:focus {
+  /* border-color: #009999;  Color del borde al hacer focus */
+  outline: none; /* Elimina el borde por defecto del focus */
+}
+
+.formulario button {
+  background-color: #009999; /* Color del botón */
+  color: white;
+  width: 30%;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+
+.formulario button:hover {
+  background-color: #007373; /* Color del botón al pasar el cursor */
+}
+
+/*inicio boton svg*/
+
+.contact-button {
+  z-index: 100000;
+  width: 60px;
+  height: 60px;
+  background-color: var(--deep-pink);
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-left: 0;
+  margin-right: 40px;
+  transition: transform 0.35s;
+  display: flex;
+  position: fixed;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+  box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.1);
+}
+
+.contact-button:hover {
+  transform: scale(1.05);
+}
+
+.campo .qr-whatsapp {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+}
+
+/*fin boton svg*/
+
+/* Media queries para dispositivos móviles */
+
+@media (max-width: 768px) {
+  .formulario {
+    width: 90%;
+  }
+
+  .formulario .campos {
+    flex-direction: column;
+  }
+
+  .formulario .campo {
+    width: 100%;
+  }
+}
+
+/* fin de Contactanos */
+
+/*inicio perfil*/
+
+.contenedor-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alineación vertical */
+}
+
+.panel {
+  background-color: #666;
+  width: 60%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+hr{
+  width: 90%;
+  border-color:#333;
+}
+
+.panel .filas {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.panel .filas h3 {
+  font-family: "Work Sans";
+  color: aquamarine;
+}
+
+.panel .filas table tbody tr td {
+  color: whitesmoke;
+}
+
+table {
+  border-collapse: collapse; /* Fusiona los bordes de las celdas */
+  width: 100%; 
+}
+
+th, td {
+  padding: 8px;
+}
+
+.boton-niveles{
+  background-color: #654e64;
+  text-align: center;
+  color: white;
+  font-size: 16pt;
+  width:120px;
+  
+  border:2px solid #533752;
+  border-radius: 10px;
+  align-items: center;
+  text-decoration: none;
+  outline: none;
+  padding: 10px 30px;
+}
+
+.boton-niveles:hover{
+  background-color: #533752;
+}
+
+.link-invitacion{
+  background-color: #333;
+  margin-left:10px;
+  padding: 10px 20px;
+  width: auto;
+  color: white;
+  text-decoration: none;
+  outline-style: none;
+  border-radius: 20px 0 0 20px;
+  cursor: auto;
+}
+
+.parrafo-content {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.btn-copiar{
+  margin-top: 0px;
+  background-color: #333;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  outline-style: none;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+/*fin perfil*/
+
+
+/*inicio tabla de niveles*/
+
+.tabla-niveles{
+  background-image: url("../../imges/fondo-niveles1.avif");
+  background-size: cover; /* Ajusta la imagen para que quepa completamente dentro del div */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  /*width: 100%; /* Ancho del div */
+  height: 600px; /* Alto del div */
+  opacity: 0.9; /* Establece la opacidad del div */
+  background-color: rgba(0, 0, 0, 0.3); /* Establece el color de fondo con transparencia */
+  display: flex;
+  flex-direction: column;
+}
+
+.filas-nivel{
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+
+.fila-cabecera{
+  height: 10%;
+  text-align: center;
+}
+
+.fila-cabecera h3{
+  font-size: 24px;
+}
+
+.fila-cuerpo{
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.columnas-nivel{
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.columnas-nivel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; /* Ajusta otros estilos según sea necesario */
+}
+
+.box-level{
+  width: 120px;
+  height: 120px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.imagen-level{
+  padding: 10px;
+  background-color: rgba(216, 81, 198, 0.404);
+  border: 2px solid rgb(134, 32, 121);
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.imagen-level:hover{
+  background-color:rgb(73, 18, 66);
+}
+
+.box-text{
+  font-size:25px;
+  margin-top: -3px;
+  color: #d1e3f5;
+}
+
+.box-link{
+  text-decoration: none;
+  outline: none;
+}
+
+/*FIN tabla de niveles*/
